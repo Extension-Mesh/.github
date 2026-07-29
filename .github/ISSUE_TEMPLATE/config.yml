@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security policy
+    url: https://github.com/Extension-Mesh/.github/security/policy
+    about: Report vulnerabilities through the private process described here.
+  - name: Support policy
+    url: https://github.com/Extension-Mesh/.github/blob/main/SUPPORT.md
+    about: Check which questions belong in the community issue tracker.
