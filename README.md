@@ -23,6 +23,7 @@ Repository-specific files take precedence over these defaults.
 
 - [Brand assets and guidelines](https://github.com/Extension-Mesh/brand)
 - [Shopware connector](https://github.com/Extension-Mesh/shopware)
+- [Website and documentation](https://github.com/Extension-Mesh/website)
 
 ## License
 
