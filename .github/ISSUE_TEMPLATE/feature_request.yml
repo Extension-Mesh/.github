@@ -1,0 +1,51 @@
+name: Feature request
+description: Propose a concrete improvement or new capability.
+title: "[Feature]: "
+labels: []
+assignees: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What practical need should this solve, and for whom?
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Likely scope
+      options:
+        - Registry
+        - Connector
+        - Shared interface or convention
+        - Documentation or tooling
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed direction
+      description: Describe the smallest useful solution. API sketches or examples are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What can be done today, and why is it insufficient?
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility and migration
+      description: Note affected public interfaces, existing installations or repositories.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched for an existing proposal covering this use case.
+          required: true
+        - label: The request is based on a concrete need rather than a hypothetical abstraction.
+          required: true
