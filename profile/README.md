@@ -33,6 +33,8 @@ not a current promise.
   design guidelines.
 - [shopware](https://github.com/Extension-Mesh/shopware) — the first system
   connector.
+- [website](https://github.com/Extension-Mesh/website) — public website and
+  project-wide documentation.
 
 ## Status
 
