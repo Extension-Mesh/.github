@@ -3,12 +3,22 @@
 **Open extension distribution.**
 
 ExtensionMesh is an open project for practical extension distribution through
-independent registries.
+independent registries. Creators keep control of their releases, while
+connectors let supported systems discover, install and update them.
 
-The project is being developed in the open. Its first implementation connects
-independent registries with Shopware. The requirements of that implementation
-are shaping the model; support for additional systems is a future possibility,
-not a current promise.
+The first maintained connector brings independent registries to Shopware 6.7.
+Its requirements shape the shared model; support for additional systems remains
+a future possibility, not a current promise.
+
+## Public beta
+
+[ExtensionMesh 0.1.0-beta.1](https://github.com/Extension-Mesh/shopware/releases/tag/v0.1.0-beta.1)
+is available for broader evaluation on Shopware 6.7. Review the
+[current boundaries and validation checklist](https://www.extension-mesh.dev/docs/project-status/)
+before using it in production.
+
+- **I use extensions:** [install the connector and add a registry](https://www.extension-mesh.dev/docs/for-users/).
+- **I publish extensions:** [choose a complete or existing-release publishing flow](https://www.extension-mesh.dev/docs/for-creators/).
 
 ## What we are building
 
@@ -32,14 +42,18 @@ not a current promise.
 - [brand](https://github.com/Extension-Mesh/brand) — visual identity, assets and
   design guidelines.
 - [shopware](https://github.com/Extension-Mesh/shopware) — the first system
-  connector.
+  connector, currently in public beta for Shopware 6.7.
+- [shopware-publisher](https://github.com/Extension-Mesh/shopware-publisher) —
+  GitHub Actions tooling for publishing compatible Shopware plugin releases.
 - [website](https://github.com/Extension-Mesh/website) — public website and
   project-wide documentation.
 
 ## Status
 
-ExtensionMesh is in early development. Interfaces, terminology and repository
-structure may change while the first implementation is validated.
+The Shopware connector is in public beta. Interfaces, generated metadata and
+upgrade behavior may still change before a stable release. ExtensionMesh does
+not certify registry operators or extension code; users choose which
+independent sources they trust.
 
 ## Participate
 
